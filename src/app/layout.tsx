@@ -3,6 +3,7 @@
 import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import { LayoutProps } from '../../.next/types/app/layout'
 
 const fontHeading = Inter({
   subsets: ['latin'],
@@ -16,7 +17,7 @@ const fontBody = Inter({
   variable: '--font-body',
 })
 
-export default function Layout({ children }) {
+export default function Layout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body 
