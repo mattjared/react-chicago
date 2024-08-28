@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 export function HomePage() {
   return (
@@ -80,7 +81,7 @@ export function HomePage() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <img src="/placeholder.svg" alt="Chicago" className="h-[300px] w-[300px]" />
+                <Image width={500} height={100} src="/placeholder.svg" alt="Chicago" className="h-[300px] w-[300px]" />
               </div>
             </div>
           </div>
@@ -127,7 +128,7 @@ export function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <Card className="bg-[#FFFFFF] text-[#0C2340]">
                   <CardHeader>
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       width={300}
                       height={300}
@@ -143,7 +144,7 @@ export function HomePage() {
                 </Card>
                 <Card className="bg-[#FFFFFF] text-[#0C2340]">
                   <CardHeader>
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       width={300}
                       height={300}
@@ -159,7 +160,7 @@ export function HomePage() {
                 </Card>
                 <Card className="bg-[#FFFFFF] text-[#0C2340]">
                   <CardHeader>
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       width={300}
                       height={300}
@@ -183,32 +184,32 @@ export function HomePage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Partners</h2>
                 <p className="max-w-[900px] text-[#0C2340] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We're grateful for the support of our sponsors, who help make the React Chicago meetup possible.
+                  We&apos;re grateful for the support of our sponsors, who help make the React Chicago meetup possible.
                 </p>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-                <img
+                <Image
                   src="/placeholder.svg"
                   width={140}
                   height={70}
                   alt="Sponsor"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 />
-                <img
+                <Image
                   src="/placeholder.svg"
                   width={140}
                   height={70}
                   alt="Sponsor"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 />
-                <img
+                <Image
                   src="/placeholder.svg"
                   width={140}
                   height={70}
                   alt="Sponsor"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 />
-                <img
+                <Image
                   src="/placeholder.svg"
                   width={140}
                   height={70}
