@@ -92,7 +92,7 @@ export function HomePage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Upcoming Meetup</h2>
                 <p className="max-w-[900px] text-[#0C2340] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Join us for our next React Chicago meetup on May 15th, 2023 at 6:30 PM. We'll be discussing the latest
+                  Join us for our next React Chicago meetup on May 15th, 2023 at 6:30 PM. We&apos;ll be discussing the latest
                   trends and innovations in the React ecosystem.
                 </p>
               </div>
