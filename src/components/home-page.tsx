@@ -32,7 +32,6 @@ export function HomePage() {
     <div className="flex flex-col min-h-[100dvh] bg-[#0C2340] text-white">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <FlagIcon className="h-6 w-6" />
           <span className="sr-only">React Chicago Meetup</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -233,25 +232,5 @@ export function HomePage() {
         </nav>
       </footer>
     </div>
-  )
-}
-
-function FlagIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
-      <line x1="4" x2="4" y1="22" y2="15" />
-    </svg>
   )
 }
